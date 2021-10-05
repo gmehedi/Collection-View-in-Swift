@@ -31,6 +31,10 @@ class SectionContainer {
     init(sectionHandlers: [SectionHandler]) {
         self.allSection = sectionHandlers
     }
+    
+//    func collectionView(index: Int) -> UICollectionViewCell {
+//        let currSection =  self.allSection[index]
+//    }
 }
 
 class ImageViewController: UIViewController {
@@ -82,8 +86,8 @@ extension ImageViewController: UICollectionViewDelegate, UICollectionViewDelegat
     }
     //MARK: Set Collection View Delegate
     fileprivate func setCollectionViewDelegate(){
-        self.imageCollectionView.delegate = self
-        self.imageCollectionView.dataSource = self
+//        self.imageCollectionView.delegate = self
+//        self.imageCollectionView.dataSource = self
     }
     
     internal func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
