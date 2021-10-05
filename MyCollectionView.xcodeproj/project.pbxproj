@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C98072C270C26FE0048239E /* HeaderCReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98072A270C26FE0048239E /* HeaderCReusableView.swift */; };
+		2C98072D270C26FE0048239E /* HeaderCReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C98072B270C26FE0048239E /* HeaderCReusableView.xib */; };
 		CE3CB2BD240294A800244151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CB2BC240294A800244151 /* AppDelegate.swift */; };
 		CE3CB2BF240294A800244151 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CB2BE240294A800244151 /* SceneDelegate.swift */; };
 		CE3CB2C1240294A800244151 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CB2C0240294A800244151 /* ImageViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C98072A270C26FE0048239E /* HeaderCReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCReusableView.swift; sourceTree = "<group>"; };
+		2C98072B270C26FE0048239E /* HeaderCReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCReusableView.xib; sourceTree = "<group>"; };
 		CE3CB2B9240294A800244151 /* MyCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3CB2BC240294A800244151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3CB2BE240294A800244151 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				CE3CB2C5240294AD00244151 /* Assets.xcassets */,
 				CE3CB2C7240294AD00244151 /* LaunchScreen.storyboard */,
 				CE3CB2CA240294AD00244151 /* Info.plist */,
+				2C98072A270C26FE0048239E /* HeaderCReusableView.swift */,
+				2C98072B270C26FE0048239E /* HeaderCReusableView.xib */,
 			);
 			path = MyCollectionView;
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 				CE3CB2C6240294AD00244151 /* Assets.xcassets in Resources */,
 				CE7DE76F240296CA00957F7E /* ImageCollectionViewCell.xib in Resources */,
 				CE3CB2C4240294A800244151 /* Main.storyboard in Resources */,
+				2C98072D270C26FE0048239E /* HeaderCReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +284,7 @@
 				CE3CB2C1240294A800244151 /* ImageViewController.swift in Sources */,
 				CE3CB2BD240294A800244151 /* AppDelegate.swift in Sources */,
 				CE7DE76E240296CA00957F7E /* ImageCollectionViewCell.swift in Sources */,
+				2C98072C270C26FE0048239E /* HeaderCReusableView.swift in Sources */,
 				CE3CB2BF240294A800244151 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S27FAGF43P;
 				INFOPLIST_FILE = MyCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S27FAGF43P;
 				INFOPLIST_FILE = MyCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
